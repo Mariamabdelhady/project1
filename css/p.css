@@ -1,0 +1,42 @@
+.first{
+     background-image:url(../Kartik\ Rastogi.jpg) ;
+     background-position: center center;
+     background-size: cover;
+     height:100vh;
+}
+.first1{
+    background-color: rgba(0, 0,0 ,0.6 );
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    }
+.first2{ 
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight:200 ;
+    text-align: center;
+font-style: italic;
+font-family: monospace;
+padding: 20%
+}
+ h3::after{
+    color :rgb(8, 140, 255);
+    content:"|";
+animation-name:me;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes me{
+0%{content:"|"}
+10%{content:"d|"}
+20%{content:"dev|"}
+30%{content:"devel|"}
+40%{content:"develop|"}
+50%{content:"developer|"}
+60%{content:"develop|"}
+70%{content:"devel|"}
+80%{content:"de|"}
+90%{content:"d|"}
+100%{content:"|"}
+}
